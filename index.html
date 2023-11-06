@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>Contact Page by Leopoldo Moreira</title>
+</head>
+<body>
+     <img src="img/logo.svg"/>
+     <div class="container-header">
+        <h1 class="header">Interested in our business pricing?</h1>
+        <p class="header-description">Fill out the form to view details and we’ll 
+            contact you as soon as possible.</p>
+     </div>
+     <div class="conteiner-form">
+        <form class="form">
+            <fieldset>
+                <div class="personal-data-div">  
+
+                    <div class="div-input">
+                        <label class="label-input" for="username">Name</label>
+                        <input class="input-data" id="username" type="text" placeholder="Ethan Johnson"/>  
+                    </div>
+
+                    <div class="div-input">
+                        <label class="label-input" for="email">Company Email</label>
+                        <input class="input-data" id="email" type="email" placeholder="ethan@johnson.com"/>  
+                    </div>
+
+                    <div class="div-input">
+                        <label class="label-input" for="company-size">Company Size</label>
+                        <select class="input-data select" id="company-size" name="company-size">
+                            <option value="value1" selected>50-100 employees</option>
+                            <option value="value2">101-150 employees</option>
+                            <option value="value3">151+ employees</option>
+                        </select>  
+                    </div>
+
+                    <div class="div-input">
+                        <label class="label-input" for="subject">Subject</label>
+                        <select class="input-data select" id="company-size" name="company-size">
+                            <option value="value1" selected>Building Landing Pages</option>
+                             <option value="value3">Others...</option>
+                         <option value="value2">Building IA for Sales</option>
+                          </select>   
+                    </div>
+                </div>   
+
+                <div class="text-area-field">
+                    <label for="message" class="label-input">Message</label>
+                    <textarea id="message" name="message">50-100 employees</textarea>
+                </div>                  
+                <input class="button" type="submit" value="Contact Sales">
+            </fieldset>
+        </form>
+     </div>
+     
+</body>
+</html>

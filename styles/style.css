@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("../img/background-image.svg");
+    padding: 10px 60px;
+}
+
+.container-header{    
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 64px;
+    line-height: 80px;
+    color: white;
+    margin: auto auto;
+    text-align: center;    
+}
+
+.header-description{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    text-align: center;  
+    font-size: 30px;
+}
+
+.conteiner-form{    
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #A65EAF 10% ,#6F4DA7 40%);
+    border-radius: 25px;    
+}
+
+fieldset{
+    border: 0 none;
+}
+
+.personal-data-div{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+}
+
+.input-data{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    padding: 1em;
+    font-weight: lighter;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.select{
+    font-weight: bold;    
+}
+
+
+.label-input{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    font-size: 14px;    
+}
+
+.text-area-field{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: auto;    
+    width: 100%;
+}
+
+#message{
+    width: 100%;
+    resize: none;
+    height: 13em;
+    border-radius: 1em;
+    padding: 1em;
+    font-weight: bold;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-bottom: 1em;
+}
+
+.button{
+    width: 100%;
+    height: 3em;
+    border-radius: 1em;
+    border: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: #111729;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;    
+}
+
+@media (max-width: 640px){
+    .personal-data-div{        
+        grid-template-columns: auto;        
+    }
+    .header{        
+        font-size: 32px;
+        line-height: 1.3em;          
+    }
+    .header-description{        
+        font-size: 16px;
+        margin-top: 1em;
+    }
+    .conteiner-form{
+        width: 100%;    
+    }
+    body{
+        padding: 10px 30px;
+    }
+
+}
+
+@media (max-width: 1024px){
+    .conteiner-form{
+        width: 100%;    
+    }
+
+    .header-description{        
+        font-size: 27px;
+        margin-top: 1em;
+    }    
+}
