@@ -106,10 +106,35 @@ fieldset{
     cursor: pointer;    
 }
 
-@media (max-width: 640px){
+
+
+@media (max-width: 450px){
+    .header{  
+        font-size: 32px;    
+        line-height: 1.3em;            
+    }
+    .container-header{        
+        width: fit-content;
+    }
+    .header-description{        
+        font-size: 16px;
+        margin-top: 1em;
+    }
+    .conteiner-form{
+        width: 100%;    
+    }
+    body{
+        padding: 10px 30px;
+    }
     .personal-data-div{        
         grid-template-columns: auto;        
     }
+}
+
+@media (min-width: 451px) and (max-width: 640px){
+    .personal-data-div{        
+        grid-template-columns: auto;        
+    }    
     .header{        
         font-size: 32px;
         line-height: 1.3em;          
