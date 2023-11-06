@@ -114,7 +114,7 @@ fieldset{
         line-height: 1.3em;            
     }
     .container-header{        
-        width: fit-content;
+        width: 95%;
     }
     .header-description{        
         font-size: 16px;
@@ -129,6 +129,9 @@ fieldset{
     }
     .personal-data-div{        
         grid-template-columns: auto;        
+    }
+    body{
+        padding: 10px 15px;
     }
 }
 
