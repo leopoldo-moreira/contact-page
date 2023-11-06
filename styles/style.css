@@ -121,7 +121,8 @@ fieldset{
         margin-top: 1em;
     }
     .conteiner-form{
-        width: 100%;    
+        width: 100%;  
+        background: linear-gradient(135deg, #A65EAF 10% ,#6F4DA7 90%);  
     }
     body{
         padding: 10px 30px;
