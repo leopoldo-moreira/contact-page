@@ -127,7 +127,7 @@ fieldset{
 
 }
 
-@media (max-width: 1024px){
+@media (min-width: 641px) and (max-width: 1024px){
     .conteiner-form{
         width: 100%;    
     }
